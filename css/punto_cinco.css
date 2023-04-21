@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+button {
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+button {
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.parImpar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parImpar input,
+.parImpar button {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

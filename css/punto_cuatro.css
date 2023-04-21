@@ -1,0 +1,50 @@
+.calificacion {
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3E8E41;
+}
+
+#resultado {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+.menu {
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: "punto_uno punto_uno punto_dos punto_dos"
+        "punto_tres punto_tres punto_cuatro punto_cuatro"
+        "punto_cinco punto_cinco punto_seis punto_seis"
+        "punto_siete punto_siete punto_ocho punto_ocho";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+}
+
+.menu .punto_uno {
+    grid-area: punto_uno;
+    background-color: rgb(255, 0, 0);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_dos {
+    grid-area: punto_dos;
+    background-color: rgb(0, 255, 247);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_tres {
+    grid-area: punto_tres;
+    background-color: rgb(238, 130, 238);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_cuatro {
+    grid-area: punto_cuatro;
+    background-color: rgb(255, 255, 0);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_cinco {
+    grid-area: punto_cinco;
+    background-color: rgb(255, 166, 0);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_seis {
+    grid-area: punto_seis;
+    background-color: rgb(172, 255, 47);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_siete {
+    grid-area: punto_siete;
+    background-color: rgb(128, 128, 128);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
+
+.menu .punto_ocho {
+    grid-area: punto_ocho;
+    background-color: rgb(0, 0, 0);
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2.5px solid black;
+}
