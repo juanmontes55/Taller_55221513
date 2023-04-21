@@ -17,7 +17,7 @@ function verificarDivisibilidad() {
 
     // Verificar si el número B es divisible por el número A
     var resultado = document.getElementById("resultado");
-    if (numeroB % numeroA == 0) {
+    if (numeroA % numeroB == 0) {
         resultado.innerHTML = "El número " + numeroA + " es divisible entre el número " + numeroB;
     } else {
         resultado.innerHTML = "El número " + numeroA + " no es divisible entre el número " + numeroB;

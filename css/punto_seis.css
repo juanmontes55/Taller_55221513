@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .highlight {
     background-color: yellow;
     color: white;
 }
 
-* {
-    font-family: sans-serif;
+a {
+    float: left;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
 }
 
-h1 {
-    text-align: center;
+body {
+    background: url(https://www.xtrafondos.com/wallpapers/blue-vortex-3d-3594.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
 
 textarea {
@@ -17,6 +30,7 @@ textarea {
     font-size: 16px;
     border: 1px solid black;
     margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 label {
@@ -25,12 +39,19 @@ label {
 
 div[id="resultado"]{
     font-size: 16px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+input {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
 }
 
 button {
     font-size: 16px;
+    font-weight: bold;
     background-color: red;
     color: white;
-    border: 1px solid #000;
-    border-radius: 3px;
+    border: 1px solid white;
+    border-radius: 1px;
 }

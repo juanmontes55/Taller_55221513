@@ -1,12 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+a {
+    float: left;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: url(https://www.xtrafondos.com/wallpapers/blue-vortex-3d-3594.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
 .calificacion {
     margin: auto;
     padding: 20px;
     width: 500px;
     text-align: center;
-}
-
-* {
-    font-family: sans-serif;
 }
 
 form {
@@ -22,11 +42,12 @@ label {
 
 input[type="text"],
 input[type="number"] {
+    background: rgba(0, 0, 0, 0.5);
     width: 250px;
     margin-bottom: 10px;
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid white;
     font-size: 16px;
 }
 
@@ -34,14 +55,11 @@ button {
     background-color: red;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-}
-
-button:hover {
-    background-color: #3E8E41;
+    font-weight: bold;
 }
 
 #resultado {

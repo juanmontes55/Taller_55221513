@@ -14,8 +14,10 @@ function calculate() {
     if (promedio >= 3.0) {
         resultDiv.innerHTML = "Felicitaciones " + nombre + ", su nota es " + promedio.toFixed(2) + ", pasaste " + materia + ".";
         resultDiv.style.color = "green";
+        resultDiv.style.backgroundColor = "rgba(140, 160, 160, 0.5)"; 
     } else {
         resultDiv.innerHTML = "Lo siento " + nombre + ", su nota es " + promedio.toFixed(2) + ", sigue intentando " + materia + ".";
         resultDiv.style.color = "red";
+        resultDiv.style.backgroundColor = "rgba(140, 160, 160, 0.5)";
     }
 }
